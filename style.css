@@ -10,6 +10,7 @@ body{
 				height: 100vh;
 				background: #2b55cc;
 				display: flex;
+				flex-direction: column;
 				align-items: center;
 				justify-content: center;
 				font-size: 25px;
@@ -132,4 +133,17 @@ body{
 				background: red;
 				border-radius: 2px;
 				transition: 0.8s;
+}
+/* footer for my det */
+.footer{
+				margin-top: 30px;
+				color: ghostwhite;
+				letter-spacing: 2px;
+				word-spacing: 10px;
+}
+.footer a{
+				text-decoration: none;
+				font-style: italic;
+				color: cyan;
+				word-spacing: 5px;
 }
